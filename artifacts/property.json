@@ -1,0 +1,84 @@
+{
+    "version": 9,
+    "compilerVersion": "1.19.2+commit.c3a20a0",
+    "contract": "Property",
+    "md5": "4c2afda2d3a24d373cb086eb0db2c064",
+    "structs": [],
+    "library": [],
+    "alias": [],
+    "abi": [
+        {
+            "type": "function",
+            "name": "updateProperty",
+            "index": 0,
+            "params": [
+                {
+                    "name": "latitude",
+                    "type": "bytes"
+                },
+                {
+                    "name": "longitude",
+                    "type": "bytes"
+                },
+                {
+                    "name": "areaCity",
+                    "type": "bytes"
+                },
+                {
+                    "name": "stateSelected",
+                    "type": "bytes"
+                },
+                {
+                    "name": "ownerPublicAddress",
+                    "type": "Ripemd160"
+                },
+                {
+                    "name": "defaultBidAmount",
+                    "type": "int"
+                }
+            ]
+        },
+        {
+            "type": "constructor",
+            "params": [
+                {
+                    "name": "propertyId",
+                    "type": "bytes"
+                },
+                {
+                    "name": "latitude",
+                    "type": "bytes"
+                },
+                {
+                    "name": "longitude",
+                    "type": "bytes"
+                },
+                {
+                    "name": "areaCity",
+                    "type": "bytes"
+                },
+                {
+                    "name": "stateSelected",
+                    "type": "bytes"
+                },
+                {
+                    "name": "ownerPublicAddress",
+                    "type": "Ripemd160"
+                },
+                {
+                    "name": "defaultBidAmount",
+                    "type": "int"
+                },
+                {
+                    "name": "documentUrl",
+                    "type": "bytes"
+                }
+            ]
+        }
+    ],
+    "stateProps": [],
+    "buildType": "debug",
+    "file": "file:///C:/Users/Keerthana/Desktop/workshop/land-registry/artifacts/property.scrypt",
+    "hex": "<propertyId><latitude><longitude><areaCity><stateSelected><ownerPublicAddress><defaultBidAmount><documentUrl>5d79577a75567a567a567a567a567a567a5c79567a75557a557a557a557a557a5b79557a75547a547a547a547a5a79547a75537a537a537a5979537a75527a527a5879527a75517a517777777777777777777777777777",
+    "sourceMapFile": ""
+}
